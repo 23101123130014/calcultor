@@ -1,12 +1,12 @@
-#include <iostream>
-using namespace std;
+#include <iostream> // allow the use of input and output 
+using namespace std; //
 
 // Function prototypes
 void add(double a, double b);
 void subtract(double a, double b);
 void multiply(double a, double b);
 void divide(double a, double b);
-
+//main function
 int main() {
     double num1, num2;
     char operation;
